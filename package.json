@@ -1,0 +1,29 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jowshiskey/my-portfolio.git",
+  "author": "joel b <joelbrault.da05@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
