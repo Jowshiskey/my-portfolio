@@ -3,7 +3,6 @@ import Home from "./Home page/Home";
 import AboutMe from "./AboutMe page/AboutMe"
 import MyProject from "./Projects Page/MyProject";
 import ContactMe from "./ContactMe";
-import Footer from "./Footer";
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -22,7 +21,6 @@ const App = () => {
                 <Route path="/contact" element={<ContactMe lang={lang} setLang={setLang}/>} />
 				<Route path="*" element={"404 page not found"} />
 			</Routes>
-            <Footer></Footer>
 		</Router>
 	);
 

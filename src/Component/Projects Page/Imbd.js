@@ -7,7 +7,6 @@ const Imbd = ( { lang } ) => {
 
     return (
         <div>
-            <h2>FX Project</h2>
             <h2 className="text" style={{color:"white"}}>{lang==="EN"? FXText.EN : FXText.FR}</h2>
             <ul className="imbdUl">
                 <li className="movie1"><img src="./images\TOTS.jpg" alt="" className="movieImg"></img></li>
